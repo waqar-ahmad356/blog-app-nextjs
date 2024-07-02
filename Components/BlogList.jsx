@@ -26,7 +26,7 @@ const BlogList = () => {
       
     </div>
     <div className='flex flex-wrap justify-around gap-1 gap-y-10 mb-16 xl:mx-24'>
-        {blogs.filter((item,index)=>menu==="All"?true:item.category===menu).map((item)=>{
+        {blogs.filter((item)=>menu==="All"?true:item.category===menu).map((item,index)=>{
             return <BlogItem key={index} title={item.title} category={item.category} image={item.image} description={item.description} id={item._id}/>
         })}
     </div>

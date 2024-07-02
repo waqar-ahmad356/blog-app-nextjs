@@ -11,7 +11,7 @@ const page = () => {
     title:"",
     description:"",
     category:"Startup",
-    author:"Alexx Bennet",
+    author:"Waqar Ahmad",
     authorImage:"/author_img.png"
   })
   const onChangeHandler=(event)=>{
